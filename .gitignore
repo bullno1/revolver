@@ -1,0 +1,10 @@
+/.eunit
+/.rebar
+/deps
+/ebin
+/erl_crash.dump
+/log
+/.project_plt
+/_rel
+/relx
+/rebar

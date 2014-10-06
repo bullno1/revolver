@@ -1,0 +1,12 @@
+{application, revolver, [
+	{description, "Automatic reloader for Erlang applications"},
+	{vsn, "0.0.1"},
+	{registered, [revolver_sup]},
+	{applications, [
+		kernel,
+		stdlib,
+		gen_os_proc
+	]},
+	{mod, {revolver, []}},
+	{env, []}
+]}.
